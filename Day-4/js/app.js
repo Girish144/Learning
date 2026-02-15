@@ -2,7 +2,7 @@ const btn = document.getElementById("themeToggle");
 
 if(localStorage.getItem("theme") === "dark"){
     document.body.classList.add("dark");
-    btn.textContent="☀️";
+    btn.textContent=" ";
 }
 
 btn.onclick = () =>{
@@ -10,9 +10,9 @@ btn.onclick = () =>{
 
     if(document.body.classList.contains("dark")){
         localStorage.setItem("theme","dark");
-        btn.textContent="☀️";
+        btn.textContent=" ";
     }else{
         localStorage.setItem("theme","light");
-        btn.textContent="🌙";
+        btn.textContent=" ";
     }
 }

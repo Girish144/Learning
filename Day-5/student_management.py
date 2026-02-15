@@ -1,5 +1,4 @@
-# Day 5 Mini Project
-# Student Management System
+
 
 students = []
 
@@ -15,11 +14,11 @@ def add_student():
     }
 
     students.append(student)
-    print("✅ Student added successfully!\n")
+    print(" Student added successfully!\n")
 
 def view_students():
     if not students:
-        print("❌ No students found.\n")
+        print(" No students found.\n")
         return
 
     print("\n--- Student List ---")
@@ -31,9 +30,9 @@ def search_student():
     search_id = input("Enter Student ID to search: ")
     for student in students:
         if student["id"] == search_id:
-            print(f"✅ Found: {student}")
+            print(f" Found: {student}")
             return
-    print("❌ Student not found.\n")
+    print(" Student not found.\n")
 
 def main():
     while True:
@@ -52,9 +51,9 @@ def main():
         elif choice == "3":
             search_student()
         elif choice == "4":
-            print("👋 Exiting program. Goodbye!")
+            print(" Exiting program. Goodbye!")
             break
         else:
-            print("❌ Invalid choice. Try again.\n")
+            print(" Invalid choice. Try again.\n")
 
 main()
