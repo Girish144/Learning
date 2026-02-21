@@ -1,0 +1,119 @@
+body {
+    background: #f0f0f0;
+    font-family: Arial;
+}
+
+/* Outer Border */
+.outer-border {
+    width: 92%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.container {
+    width: 100%;
+}
+
+/* Header */
+.header {
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Main layout */
+.main-section {
+    display: flex;
+    gap: 15px;
+}
+
+/* Left large box */
+.slider {
+    flex: 2;
+    height: 260px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Controls */
+.controls {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+.dots {
+    display: flex;
+    gap: 8px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+/* Right panel */
+.right-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.info-box {
+    height: 170px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.circle {
+    width: 18px;
+    height: 18px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/* Two small boxes */
+.small-box-row {
+    display: flex;
+    gap: 10px;
+}
+
+.small-box {
+    flex: 1;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Bottom cards */
+.bottom-section {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.card {
+    flex: 1;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 10px;
+}

@@ -1,0 +1,64 @@
+:root{
+    --bg:#f4f6fb;
+    --text:#111;
+    --card:#fff;
+    --primary:#1976d2;
+}
+
+body.dark{
+    --bg:#121212;
+    --text:#e4e4e4;
+    --card:#1e1e1e;
+    --primary:#4fc3f7;
+}
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:var(--bg);
+    color:var(--text);
+    transition:.3s;
+}
+
+/* NAVBAR */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding:15px 40px;
+    background:var(--card);
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.navbar a{
+    margin:0 10px;
+    text-decoration:none;
+    color:var(--text);
+    font-weight:bold;
+}
+
+.navbar a:hover{
+    color:var(--primary);
+    transition:.3s;
+}
+
+/* button */
+#themeToggle{
+    background:var(--primary);
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+/* cards */
+.card{
+    background:var(--card);
+    padding:20px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
