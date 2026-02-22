@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/template_inheritance_project.iml" filepath="$PROJECT_DIR$/.idea/template_inheritance_project.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/context_project.iml" filepath="$PROJECT_DIR$/.idea/context_project.iml" />
+>>>>>>> ce4f4d78062e0d4b33972e71f2a4185db552a026
     </modules>
   </component>
 </project>

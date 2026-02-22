@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+}
+
+.logo {
+    font-weight: bold;
+    color: #1da1f2;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-buttons button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.outline {
+    border: 1px solid #1da1f2;
+    background: transparent;
+    color: #1da1f2;
+}
+
+.primary {
+    background: #1da1f2;
+    color: white;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    min-height: 90vh;
+    background: yellow; /* requested background */
+}
+
+.small-title {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero h1 span {
+    color: #0d9edb;
+}
+
+.subtitle {
+    margin: 15px 0 30px;
+}
+
+/* Search box */
+.search-box {
+    background: #eee;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.search-box input {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    background: transparent;
+    outline: none;
+}
+
+/* bottom row */
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.left-tools,
+.right-tools {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.tag {
+    background: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.left-tools button,
+.mic {
+    background: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* learn button */
+.learn-btn {
+    margin-top: 35px;
+    background: #0d9edb;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+}
